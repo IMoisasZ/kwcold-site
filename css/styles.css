@@ -12,6 +12,13 @@ hr {
     width: 100%;
 }
 
+.navbar-toggler, .navbar-toggler-icon {
+    padding: 1%;
+    margin-right: 2%;
+    color: #fff;
+    background-color: #fff;
+}
+
 .title-up {
     display: flex;
     align-items: center;
@@ -95,6 +102,8 @@ body {
     background-color: #E6E6FA;
 }
 
+
+/* --------------------------------------------------------------------------------------- */
 /* sobre */
 #sobre {
     display: flex;
@@ -150,6 +159,7 @@ body {
 }
 
 
+/* --------------------------------------------------------------------------------------- */
 /* serviços */
 .accordion-item, .accordion-item button {
     background-color: #000080;
@@ -168,6 +178,7 @@ body {
     margin: 0 2%;
 }
 
+/* --------------------------------------------------------------------------------------- */
 /* clientes */
 .cli {
     display: flex;
@@ -193,6 +204,7 @@ body {
     filter: grayscale(0);
 }
 
+/* --------------------------------------------------------------------------------------- */
 /* footer */
 footer {
     min-height: 45em;
@@ -268,6 +280,3 @@ address svg {
     text-align: center;
     padding: 1em 0;
 }
-
-
-

@@ -1,0 +1,273 @@
+/* padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+hr {
+    border-color: #800000;
+    border-width: 3px;
+    width: 100%;
+}
+
+.title-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    transition: 2s;
+}
+
+.title-up:hover {
+    background-color: #000080;
+    color: #fff;
+}
+
+.title-up h2 {
+    margin-right: 1em;
+    padding: 0.5em;
+}
+
+svg {
+    height: 2em;
+    color: #E6E6FA;
+    cursor: pointer;
+}
+
+.kwcold {
+    font-weight: bold;
+    font-style: italic;
+    transition: 2s;
+}
+
+.kwcold:hover {
+    color: #800000;
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+
+/* --------------------------------------------------------------------------------------- */
+/* navBar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000080;
+}
+
+.item {
+    color: #fff
+}
+
+#div-img-kwcold {
+    width: 250px;
+    height: 100px;
+    margin-left: 1%;
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+}
+
+.div-itens{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#navbarSupportedContent .nav-item .nav-link {
+    color: #fff;
+    font-weight: bold;
+    transition: 2s;
+}
+
+#navbarSupportedContent .nav-item .nav-link:hover{
+    color: #800000;
+}
+
+body {
+    background-color: #E6E6FA;
+}
+
+/* sobre */
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 2%;
+}
+
+#sobre p {
+    text-align: justify;
+}
+
+.outros {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card {
+    margin-right: 0.5em;
+}
+
+.outros .one {
+    width: 40%;
+}
+
+.outros .two {
+    width: 40%;
+}
+
+.outros .four {
+    width: 40%;
+}
+
+.outros h4 {
+    text-align: center;
+}
+
+#text {
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: wavy;
+    transition: 2s;
+}
+
+#text:hover {
+    font-size: 1.4em;
+    color: #800000;
+}
+
+
+/* serviços */
+.accordion-item, .accordion-item button {
+    background-color: #000080;
+    color: #fff;
+    padding: 1em;
+    transition: 2s;
+}
+
+.accordion-item button:hover {
+    color: #800000;
+    font-size: 0.8em;
+}
+
+.accordion {
+    min-height: 41em;
+    margin: 0 2%;
+}
+
+/* clientes */
+.cli {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 42em;
+}
+
+.div-img {
+    width: 20em;
+    margin: 2%;
+}
+
+.img {
+    width: 100%;
+    filter: grayscale(5);
+    cursor: pointer;
+    transition: 2s;
+}
+
+.img:hover {
+    filter: grayscale(0);
+}
+
+/* footer */
+footer {
+    min-height: 45em;
+    background-color: #000080;
+    color: #fff;
+    width: 100%;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 1%;
+}
+
+.endereco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 2%;
+}
+
+iframe {
+    height: 28em;
+    width: 100%;
+    margin: 0 2%;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2%;
+}
+
+address {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+address svg {
+    color: #006400;
+    width: 2em;
+    margin-left: 1em;
+}
+
+.filtro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.filtro li {
+    list-style: none;
+    text-decoration: none;
+    padding: 2% 0;
+}
+
+.filtro li a {
+    color: #fff;
+    font-weight: 500;
+    transition: 2s;
+}
+
+.filtro li a:hover {
+    color: #800000;
+}
+
+#direitos {
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+

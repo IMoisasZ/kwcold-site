@@ -56,6 +56,22 @@ svg {
     text-decoration: underline;
 }
 
+/* --------------------------------------------------------------------------------------- */
+/* animate loja online */
+.element {
+    animation: pulse 5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      color: #fff;
+      text-decoration: underline;
+    }
+    100% {
+      color: #800000;
+    }
+  }
+
 
 /* --------------------------------------------------------------------------------------- */
 /* navBar */
@@ -187,18 +203,21 @@ body {
 .cli {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     min-height: 42em;
 }
 
 .div-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 20em;
-    margin: 2%;
+    padding: 0;
 }
 
 .img {
-    width: 100%;
+    width: 80%;
     filter: grayscale(5);
     cursor: pointer;
     transition: 2s;
@@ -228,6 +247,10 @@ h4 {
     justify-content: center;
     flex-direction: column;
     margin: 0 2%;
+}
+
+.endereco p {
+    text-align: center;
 }
 
 iframe {
@@ -261,13 +284,13 @@ address svg {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 30%;
+    width: 40%;
 }
 
 .filtro li {
     list-style: none;
     text-decoration: none;
-    padding: 2% 0;
+    padding: 1%;
 }
 
 .filtro li a {
@@ -283,4 +306,53 @@ address svg {
 #direitos {
     text-align: center;
     padding: 1em 0;
+}
+
+/* --------------------------------------------------------------------------------------- */
+/* media queries */
+@media (max-width: 992px){
+    svg {
+        color: #000;
+    }
+
+    #sobre p,
+    .card-header,
+    .outros,
+    .accordion-body{
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .accordion-button {
+        font-size: 16px;
+    }
+
+    .div-img {
+        margin: 2%
+    }
+
+    .filtro {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    @media (max-width: 500px){
+        .endereco h4 {
+            font-size: 16px;
+        }
+        .endereco p,
+        .endereco h6,
+        .contato h6,
+        .contato p,
+        .filtro {
+            font-size: 12px;
+        }
+        
+        #direitos {
+            font-size: 10px;
+        }
+    }
 }

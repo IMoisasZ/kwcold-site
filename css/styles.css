@@ -87,8 +87,8 @@ svg {
 }
 
 #div-img-kwcold {
-    width: 250px;
-    height: 100px;
+    width: 350px;
+    height: 150px;
     margin-left: 1%;
 }
 
@@ -102,6 +102,25 @@ svg {
     align-items: center;
     justify-content: flex-end;
     width: 100%;
+}
+
+.div-itens-central{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 92%;
+}
+
+.div-itens-central li {
+    border: solid #fff 1px;
+    border-radius: 1em;
+    padding: 0 0.5em;
+    font-size: 200%;
+    transition: 2s;
+}
+
+.div-itens-central li:hover {
+    border: #fff dashed 1px ;
 }
 
 #navbarSupportedContent .nav-item .nav-link {
@@ -337,6 +356,23 @@ address svg {
     .filtro {
         flex-direction: column;
         align-items: flex-end;
+    }
+
+    .div-itens-central {
+        width: 100%;
+    }
+
+    .div-itens-central li {
+        border: none;
+        padding: 0;
+        font-size: 1em;
+        transition: 2s;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     @media (max-width: 500px){
